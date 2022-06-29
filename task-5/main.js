@@ -5,9 +5,6 @@ prompt.get('input', function (err, result) {
     let setir = parseInt(result.input.split(',')[0])
 
     let sutun = setir
-
-  
-
     let matrix= []
 
 
@@ -20,7 +17,6 @@ prompt.get('input', function (err, result) {
     for(let i=0; i<matrix.length; i++){
         console.log(matrix[i].join(" "));
     }
-
 
 });
 
