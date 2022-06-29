@@ -15,7 +15,7 @@ prompt.get('input', function (err, result) {
         }
 
     for(let i=0; i<matrix.length; i++){
-        console.log(matrix[i].join(" "));
+        console.log(matrix[i].join(""));
     }
 
 });
